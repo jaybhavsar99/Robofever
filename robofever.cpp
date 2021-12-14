@@ -92,6 +92,17 @@ void robofever::right()
 
 }
 
+void robofever::hold()
+{
+	digitalWrite(mot11, LOW);
+	digitalWrite(mot12, LOW);
+	digitalWrite(mot21, LOW);
+	digitalWrite(mot22, LOW);
+
+
+
+
+}
 
 
 

@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Keyboard
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+robofever	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+forward	KEYWORD2
+backward KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+hold	KEYWORD2
+operation KEYWORD2
+ir1operation KEYWORD2
+ir2operation KEYWORD2
+bluetoothoperation KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+

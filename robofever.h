@@ -35,6 +35,7 @@ void forward();
 void backward();
 void left();
 void right();
+void hold();
 float operation();
 int ir1operation();
 int ir2operation();
