@@ -14,6 +14,7 @@ robofever	KEYWORD1
 
 forward	KEYWORD2
 backward KEYWORD2
+pinsetup KEYWORD2
 left	KEYWORD2
 right	KEYWORD2
 hold	KEYWORD2

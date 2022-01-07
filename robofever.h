@@ -22,7 +22,7 @@ int mot21;
 int mot22;
 int irv1;
 int irv2;
-int distance;  
+float distance;  
 int duration;
 char getdata;
 

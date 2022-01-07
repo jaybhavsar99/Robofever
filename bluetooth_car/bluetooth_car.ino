@@ -7,6 +7,7 @@ robofever robofever ;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  robofever.pinsetup();
 
 }
 
@@ -19,31 +20,31 @@ void loop() {
       if(getdata=='F')
       {
         
-  
+      robofever.forward();
       }
       else if(getdata=='B')
       {
        
-        
+        robofever.backward();
         
         }
         else if(getdata=='L')
       {
         
-        
+        robofever.left();
         
         }
         else if(getdata=='R')
       {
         
-        
+        robofever.right();
         
         }
         else if(getdata=='S')
       {
       
         
-        
+        robofever.hold();
         }
         
       

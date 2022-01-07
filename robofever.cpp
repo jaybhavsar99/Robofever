@@ -12,7 +12,7 @@ robofever::robofever(){
  mot21=5;
  mot22=4;
  ir1 = A0;
- ir2 = A1;
+ ir2 = A2;
  }
 
  void robofever::pinsetup()
@@ -36,12 +36,12 @@ float robofever::operation()
  
 
 digitalWrite(trigPin, LOW);
-delayMicroseconds(2);
+delayMicroseconds(10);
 digitalWrite(trigPin, HIGH);
 delayMicroseconds(10);
 digitalWrite(trigPin, LOW);
 duration = pulseIn(echoPin, HIGH);
-int distance= duration*0.034/2;
+distance= duration*0.034/2;
 return distance;
 
 }
