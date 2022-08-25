@@ -12,7 +12,7 @@ robofever	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-forward	KEYWORD2
+forward	 KEYWORD2
 backward KEYWORD2
 pinsetup KEYWORD2
 left	KEYWORD2
