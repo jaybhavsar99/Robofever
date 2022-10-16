@@ -1,7 +1,8 @@
 #include<robofever.h>
 
+robofever robofever ;
 
- robofever robofever ;
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -12,13 +13,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-   int data=robofever.operation();
-       robofever.forward();
-   
-  //Serial.println(dis1);
-    //Serial.println(":::"); 
-    Serial.println(data);
-  
-
-
+  char getdata =robofever.bluetoothoperation();
+  Serial.println(getdata);
 }
